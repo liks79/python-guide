@@ -11,7 +11,7 @@ described in the next section before you start building Python applications
 for real-world use. In particular, you should always install Setuptools, as it
 makes it much easier for you to use other third-party Python libraries.
 
-The version of Python that ships with OS X is great for learning. Yet, it's not
+The version of Python that ships with OS X is great for learning but it's not
 good for development. The version shipped with OS X may be out of date from the
 `official current Python release <https://www.python.org/downloads/mac-osx/>`_,
 which is considered the stable production version.
@@ -36,12 +36,12 @@ While OS X comes with a large number of UNIX utilities, those familiar with
 Linux systems will notice one key component missing: a decent package manager.
 `Homebrew <http://brew.sh>`_ fills this void.
 
-To `install Homebrew <https://github.com/Homebrew/homebrew/wiki/installation>`_,
-simply run
+To `install Homebrew <http://brew.sh/#install>`_, open :file:`Terminal` or
+your favorite OSX terminal emulator and run
 
 .. code-block:: console
 
-    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 The script will explain what changes it will make and prompt you before the
 installation begins.
